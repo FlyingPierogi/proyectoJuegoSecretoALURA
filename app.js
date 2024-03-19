@@ -1,4 +1,3 @@
-
 let numeroSecreto = 0; 
 let intentos =0;
 let listaNumerosSorteados = [];
@@ -71,5 +70,4 @@ function generarNumeroSecreto() {
 asignarTextoElemento('h1', 'Juego del numero secreto');
 asignarTextoElemento('p', `Indica un numero del 1 al ${numeroMaximo}`);
 condicionesIniciales();
-
 
